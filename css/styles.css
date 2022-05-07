@@ -402,7 +402,7 @@ ul {
 .portfolio-item .item {
   margin-right: 30px;
   margin-bottom: 30px;
-  flex-basis: calc((100%/370px)/3);
+  
 }
 
 .portfolio-item .item:nth-child(3n) {
@@ -410,7 +410,11 @@ ul {
 }
 
 
-
+.photo-portfolio {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 
 
