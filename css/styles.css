@@ -38,7 +38,9 @@ h1,h2,h3,h4,h5,h6,p {
 
 }
 
-
+.header {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
 
 ul {
   list-style: none;
@@ -51,7 +53,7 @@ ul {
   display: flex;
   align-items: center;
 
-  border-bottom: 1px solid rgba(236, 236, 236, 1);
+  
 }
 
 .logo-header {
